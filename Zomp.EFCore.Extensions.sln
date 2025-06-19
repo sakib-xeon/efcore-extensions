@@ -94,6 +94,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".vscode", ".vscode", "{61D9
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Zomp.EFCore.WindowFunctions.Testing", "tests\Zomp.EFCore.WindowFunctions.Testing\Zomp.EFCore.WindowFunctions.Testing.shproj", "{379AED0A-4C97-4EBC-BADA-68104B9514CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zomp.EFCore.WindowFunctions.MySql", "src\Zomp.EFCore.WindowFunctions.MySql\Zomp.EFCore.WindowFunctions.MySql.csproj", "{A424838A-0717-4563-972F-9BF9144CA0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,6 +182,10 @@ Global
 		{BCF7993C-2B7D-43A3-B99B-1E32072031FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCF7993C-2B7D-43A3-B99B-1E32072031FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCF7993C-2B7D-43A3-B99B-1E32072031FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A424838A-0717-4563-972F-9BF9144CA0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A424838A-0717-4563-972F-9BF9144CA0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A424838A-0717-4563-972F-9BF9144CA0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A424838A-0717-4563-972F-9BF9144CA0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +217,7 @@ Global
 		{BCF7993C-2B7D-43A3-B99B-1E32072031FB} = {941686A1-8DDE-4D64-AA18-3AC347935CAF}
 		{61D9540B-9FAE-48BF-8B47-3AC5493586DA} = {528A7E80-5391-4750-B0B4-47B05160E73A}
 		{379AED0A-4C97-4EBC-BADA-68104B9514CC} = {941686A1-8DDE-4D64-AA18-3AC347935CAF}
+		{A424838A-0717-4563-972F-9BF9144CA0F1} = {F71F1DAC-BD40-4112-8829-FCCFF65A8A23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C20B0087-9477-4FC8-A489-4A8627C395B0}

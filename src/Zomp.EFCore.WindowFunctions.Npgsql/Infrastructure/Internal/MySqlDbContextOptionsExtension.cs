@@ -3,7 +3,7 @@
 /// <summary>
 /// Extensions for DbContextOptions.
 /// </summary>
-public class NpgsqlDbContextOptionsExtension : IDbContextOptionsExtension
+public class MySqlDbContextOptionsExtension : IDbContextOptionsExtension
 {
     private ExtensionInfo? info;
 
@@ -21,6 +21,6 @@ public class NpgsqlDbContextOptionsExtension : IDbContextOptionsExtension
     private sealed class ExtensionInfo(IDbContextOptionsExtension extension) : WindowFunctions.Infrastructure.Internal.ExtensionInfo(extension)
     {
         public override IDbContextOptionsExtension Extension
-            => (NpgsqlDbContextOptionsExtension)base.Extension;
+            => (MySqlDbContextOptionsExtension)base.Extension;
     }
 }

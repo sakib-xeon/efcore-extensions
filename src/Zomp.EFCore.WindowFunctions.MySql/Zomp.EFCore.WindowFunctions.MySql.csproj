@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Window functions for MySql database provider for Entity Framework Core</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zomp.EFCore.WindowFunctions\Zomp.EFCore.WindowFunctions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Pomelo.EntityFrameworkCore.MySql.Infrastructure" />
+    <Using Include="Pomelo.EntityFrameworkCore.MySql.Infrastructure.Internal" />
+    <Using Include="Pomelo.EntityFrameworkCore.MySql.Query.Internal" />
+    <Using Include="Pomelo.EntityFrameworkCore.MySql.Storage.Internal" />
+    <Using Include="System.Collections" />
+    <Using Include="System.Linq.Expressions" />
+    <Using Include="System.Runtime.InteropServices" />
+    <Using Include="Zomp.EFCore.WindowFunctions.Extensions" />
+    <Using Include="Zomp.EFCore.WindowFunctions.Infrastructure.Internal" />
+    <Using Include="Zomp.EFCore.WindowFunctions.Query.Internal" />
+    <Using Include="Zomp.EFCore.WindowFunctions.Query.SqlExpressions" />
+    <Using Include="Zomp.EFCore.WindowFunctions.MySql.Query.Internal"/>
+    <Using Include="Zomp.EFCore.WindowFunctions.Npgsql.Infrastructure.Internal"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
+  </ItemGroup>
+</Project>

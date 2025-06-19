@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     <Copyright>© Zomp Inc. All rights reserved.</Copyright>
     <Company>Zomp</Company>
     <Authors>Victor Irzak</Authors>
